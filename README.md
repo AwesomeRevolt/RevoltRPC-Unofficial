@@ -10,20 +10,6 @@ If you need help or want to discuss features, join our [Support Server](https://
 
 ---
 
-## Table of Contents
-
-- [Features](#features)  
-- [Installation](#installation)  
-- [Configuration](#configuration)  
-- [Usage](#usage)  
-- [Environment Variables](#environment-variables)  
-- [Development](#development)  
-- [Contributing](#contributing)  
-- [Troubleshooting](#troubleshooting)  
-- [License](#license)  
-
----
-
 ## Features
 
 - Automatically update your Revolt status with currently playing Last.fm track.
