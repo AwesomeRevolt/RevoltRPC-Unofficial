@@ -36,7 +36,7 @@ cd RevoltRPC-Unofficial
 npm install
 ```
 
-3. **Get User Token**
+### 3. **Get User Token**
 3.1. Open [Revolt](https://app.revolt.chat) in your browser.
 3.2. Press <kbd>F12</kbd> to open Developer Tools (or right-click → Inspect).
 3.3 Go to the **Console** tab.
