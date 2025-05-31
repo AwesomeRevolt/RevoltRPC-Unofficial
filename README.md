@@ -26,7 +26,7 @@ If you need help or want to discuss features, join our [Support Server](https://
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/yourusername/RevoltRPC-Unofficial.git
+git clone https://github.com/AwesomeRevolt/RevoltRPC-Unofficial
 cd RevoltRPC-Unofficial
 ```
 
