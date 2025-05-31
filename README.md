@@ -37,18 +37,20 @@ npm install
 ```
 
 ### 3. **Get User Token**
-3.1. Open [Revolt](https://app.revolt.chat) in your browser.
-3.2. Press <kbd>F12</kbd> to open Developer Tools (or right-click → Inspect).
-3.3 Go to the **Console** tab.
-3.4 Paste and run the following code:
 
-    ```js
-    window.state.auth.sessions.get(controllers.client.getReadyClient().user._id).session.token
-    ```
+3.1. Open [Revolt](https://app.revolt.chat) in your browser.  
+3.2. Press <kbd>F12</kbd> to open Developer Tools (or right-click → Inspect).  
+3.3. Go to the **Console** tab.  
+3.4. Paste and run the following code:
+
+```js
+window.state.auth.sessions.get(controllers.client.getReadyClient().user._id).session.token
+```
 
 3.5. Copy the output string — this is your user token.
 
-⚠️ **Never share this token** 
+> ⚠️ **Never share this token**  
+
 
 4. **Create and configure `.env` file:**
 
