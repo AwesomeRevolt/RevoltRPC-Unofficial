@@ -9,7 +9,7 @@ const path = require("path");
 const client = new Client();
 const UPDATE_INTERVAL_MS = Number(process.env.UPDATE_INTERVAL_MS);
 
-const gamesPath = path.join(__dirname, "games.json");
+const gamesPath = path.join(__dirname, "games.json"); // Update to an API at some point and allow developers to add their own applications??
 const games = JSON.parse(fs.readFileSync(gamesPath, "utf-8"));
 
 const config = {
@@ -48,6 +48,7 @@ async function getNowPlaying(username) {
 async function detectRunningGame() {
   try {
     const processes = await psList();
+    const sysInfo = await si.processes();
 
     for (const proc of processes) {
       const exe = proc.name.toLowerCase();
@@ -61,17 +62,29 @@ async function detectRunningGame() {
           fs.existsSync(p) &&
           fs.lstatSync(p).isDirectory()
         );
-
-        const folderName = projectPath ? path.basename(projectPath) : "a project";
+        // I honestly don't know why this isn't detecting what you're actually doing, I am probably just dumb, I'll revisit this later
+        const folderName = projectPath ? path.basename(projectPath) : "Amazing Projects";
+        if (currentGameExe !== "code.exe") { // You can make this anything you want :3
+          currentGameExe = "code.exe";
+          gameStartTime = Date.now();
+        }
         return `💻 Creating ${folderName} on VSC`;
       }
 
       const matchingGame = games.find(game => game.exe.toLowerCase() === exe);
       if (matchingGame) {
-        return `${config.emoji.game} Playing: ${matchingGame.name}`;
+        if (currentGameExe !== exe) {
+          currentGameExe = exe;
+          const gameProc = sysInfo.list.find(p => p.name.toLowerCase() === exe);
+          gameStartTime = gameProc?.started ? new Date(gameProc.started).getTime() : Date.now();
+        }
+        const elapsed = formatElapsedTime(gameStartTime);
+        return `${config.emoji.game} Playing: ${matchingGame.name} ${elapsed}`;
       }
     }
 
+    currentGameExe = null;
+    gameStartTime = null;
     return null;
   } catch (err) {
     console.error("❌ Error detecting running games:", err);
