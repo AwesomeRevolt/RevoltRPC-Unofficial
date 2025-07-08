@@ -117,7 +117,7 @@ npm run dev
 
 ```
 RevoltRPC-Unofficial/
-├── index.js            # Main script
+├── index.ts            # Main script
 ├── games.json          # List of supported games for detection
 ├── example.env         # Example environment variables
 ├── package.json        # Project config and dependencies
@@ -132,8 +132,10 @@ The `games.json` file contains a list of games with their executable names to de
 Add your own games by editing this file:
 
 ```json
- { "exe": "Among Us.exe", "name": "Among Us" },
-{ "exe": "Fallout4.exe", "name": "Fallout 4" },
+[
+  { "exe": "Among Us.exe", "name": "Among Us" },
+  { "exe": "Fallout4.exe", "name": "Fallout 4" }
+]
 ```
 
 Contributions are **actively encouraged**!  
