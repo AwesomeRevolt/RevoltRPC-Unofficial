@@ -2,6 +2,13 @@
 
 A status updater for Revolt using Last.fm scrobbling and game detection to dynamically update your status with music or game info, similar to Discord's RPC system
 
+<a href="https://youtu.be/pCyFXLGWbsw">
+  <img src="https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white" alt="Tutorial" />
+</a>
+<a href="https://rvlt.gg/hw1sDfMY">
+  <img src="https://img.shields.io/badge/Support%20Server-Join%20Now-9b59b6?style=for-the-badge" alt="Support Server" />
+</a>  
+
 ---
 
 ## Support
