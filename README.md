@@ -14,6 +14,7 @@ A status updater for Revolt using Last.fm scrobbling and game detection to dynam
 ## Support
 
 If you need help or want to discuss features, join our [Support Server](https://rvlt.gg/eB6J6rve) for assistance and community support.
+Alternatively; you can watch the tutorial video [here](https://youtu.be/pCyFXLGWbsw)
 
 ---
 
