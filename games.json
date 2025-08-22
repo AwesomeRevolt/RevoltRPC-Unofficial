@@ -4,6 +4,7 @@
     { "exe": "PlayGTAIV.exe", "name": "Grand Theft Auto IV" },
     { "exe": "gta-sa.exe", "name": "Grand Theft Auto: San Andreas" },
     { "exe": "RDR2.exe", "name": "RDR2" },
+    { "exe": "LANoire.exe", "name": "L.A. Noire" },
     { "exe": "Among Us.exe", "name": "Among Us" },
     { "exe": "BeamNG.drive.exe", "name": "BeamNG Drive" },
     { "exe": "BladeAndSorcery.exe", "name": "Blade & Sorcery" },
@@ -83,5 +84,7 @@
     { "exe": "Sally Face.exe", "name": "Sally Face" },
     { "exe": "SpaceEngineers.exe", "name": "Space Engineers" },
     { "exe": "thief.exe", "name": "Thief Simulator" },
-    { "exe": "ReadyOrNotSteam-Win64-Shipping.exe", "name": "Ready or Not" }
+    { "exe": "ReadyOrNotSteam-Win64-Shipping.exe", "name": "Ready or Not" },
+    { "exe": "DyingLightGame_x64_rwdi.exe", "name": "Dying Light 2" },
+    { "exe": "ACC.exe", "name": "Assassin's Creed: Rogue" }
 ]
