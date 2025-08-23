@@ -596,10 +596,6 @@
     "name": "Slime Rancher"
   },
   {
-    "exe": "lms.exe",
-    "name": "Last Man Standing"
-  },
-  {
     "exe": "vcredist_x64.exe",
     "name": "Last Man Standing"
   },
