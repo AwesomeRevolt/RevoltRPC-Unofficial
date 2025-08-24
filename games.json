@@ -1020,10 +1020,6 @@
     "name": "Absolver"
   },
   {
-    "exe": "launcher.exe",
-    "name": "Total War: WARHAMMER"
-  },
-  {
     "exe": "scrapmechanic.exe",
     "name": "Scrap Mechanic"
   },
@@ -2008,20 +2004,12 @@
     "name": "Prince of Persia"
   },
   {
-    "exe": "launcher.exe",
-    "name": "Prince of Persia"
-  },
-  {
     "exe": "blackmirror.exe",
     "name": "Black Mirror"
   },
   {
     "exe": "dflw.exe",
     "name": "Delta Force: Land Warrior"
-  },
-  {
-    "exe": "launcher.exe",
-    "name": "Full Spectrum Warrior"
   },
   {
     "exe": "fsw2.exe",
@@ -3090,14 +3078,6 @@
   {
     "exe": "genitaljousting.exe",
     "name": "Genital Jousting"
-  },
-  {
-    "exe": "launcher.exe",
-    "name": "Aura Kingdom"
-  },
-  {
-    "exe": "_launcher.exe",
-    "name": "Aura Kingdom"
   },
   {
     "exe": "farcry5.exe",
@@ -6894,10 +6874,6 @@
   {
     "exe": "shantae and the pirate's curse.exe",
     "name": "Shantae and the Pirate's Curse"
-  },
-  {
-    "exe": "shatteredskies.exe",
-    "name": "Shattered Skies"
   },
   {
     "exe": "railroads.exe",
@@ -21988,10 +21964,6 @@
     "name": "STARWHAL"
   },
   {
-    "exe": "update.exe",
-    "name": "Live2DViewerEX"
-  },
-  {
     "exe": "gamecorpdx.exe",
     "name": "Game Corp DX"
   },
@@ -33208,10 +33180,6 @@
     "name": "Nightmare Kart"
   },
   {
-    "exe": "launcher.exe",
-    "name": "Legend of Edda: Pegasus"
-  },
-  {
     "exe": "client.exe",
     "name": "Legend of Edda: Pegasus"
   },
@@ -39676,10 +39644,6 @@
     "name": "Splitgate 2"
   },
   {
-    "exe": "launcher.exe",
-    "name": "Splitgate 2"
-  },
-  {
     "exe": "xrengine.exe",
     "name": "S.T.A.L.K.E.R.: Call of Prypiat - Enhanced Edition"
   },
@@ -42293,10 +42257,6 @@
   },
   {
     "exe": "pubg lite.exe",
-    "name": "PUBG LITE"
-  },
-  {
-    "exe": "launcher.exe",
     "name": "PUBG LITE"
   },
   {
