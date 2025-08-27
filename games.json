@@ -38832,10 +38832,6 @@
     "name": "Subterror"
   },
   {
-    "exe": "setup.exe",
-    "name": "Earth 2150 Trilogy"
-  },
-  {
     "exe": "aviassembly.exe",
     "name": "Aviassembly"
   },
@@ -40714,10 +40710,6 @@
   {
     "exe": "paradiddle-win64-shipping.exe",
     "name": "Paradiddle"
-  },
-  {
-    "exe": "setup.exe",
-    "name": "Hidden & Dangerous 2: Courage Under Fire"
   },
   {
     "exe": "revengeongolddiggers.exe",
